@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** framboesa **/
+    --ion-color-framboesa: #cd0134;
+    --ion-color-framboesa-rgb: 205,1,52;
+    --ion-color-framboesa-contrast: #ffffff;
+    --ion-color-framboesa-contrast-rgb: 255,255,255;
+    --ion-color-framboesa-shade: #b4012e;
+    --ion-color-framboesa-tint: #d21a48;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -75,6 +83,21 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+.ion-color-framboesa {
+  --ion-color-base: var(--ion-color-framboesa);
+  --ion-color-base-rgb: var(--ion-color-framboesa-rgb);
+  --ion-color-contrast: var(--ion-color-framboesa-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-framboesa-contrast-rgb);
+  --ion-color-shade: var(--ion-color-framboesa-shade);
+  --ion-color-tint: var(--ion-color-framboesa-tint);
+}
+
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   /*
