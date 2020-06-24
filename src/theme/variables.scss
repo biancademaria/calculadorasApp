@@ -3,6 +3,23 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /** rosado **/
+    --ion-color-rosado: #d71147;
+    --ion-color-rosado-rgb: 215,17,71;
+    --ion-color-rosado-contrast: #ffffff;
+    --ion-color-rosado-contrast-rgb: 255,255,255;
+    --ion-color-rosado-shade: #bd0f3e;
+    --ion-color-rosado-tint: #db2959;
+ 
+  /** moranguinho **/
+    --ion-color-moranguinho: #e40123;
+    --ion-color-moranguinho-rgb: 228,1,35;
+    --ion-color-moranguinho-contrast: #ffffff;
+    --ion-color-moranguinho-contrast-rgb: 255,255,255;
+    --ion-color-moranguinho-shade: #c9011f;
+    --ion-color-moranguinho-tint: #e71a39;
+  
   /** framboesa **/
     --ion-color-framboesa: #cd0134;
     --ion-color-framboesa-rgb: 205,1,52;
@@ -82,6 +99,24 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-rosado {
+  --ion-color-base: var(--ion-color-rosado);
+  --ion-color-base-rgb: var(--ion-color-rosado-rgb);
+  --ion-color-contrast: var(--ion-color-rosado-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-rosado-contrast-rgb);
+  --ion-color-shade: var(--ion-color-rosado-shade);
+  --ion-color-tint: var(--ion-color-rosado-tint);
+}
+
+.ion-color-moranguinho {
+  --ion-color-base: var(--ion-color-moranguinho);
+  --ion-color-base-rgb: var(--ion-color-moranguinho-rgb);
+  --ion-color-contrast: var(--ion-color-moranguinho-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-moranguinho-contrast-rgb);
+  --ion-color-shade: var(--ion-color-moranguinho-shade);
+  --ion-color-tint: var(--ion-color-moranguinho-tint);
 }
 
 .ion-color-framboesa {
